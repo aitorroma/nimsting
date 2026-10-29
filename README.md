@@ -14,6 +14,3 @@ cp /ruta/a/app-debug.apk NimRecord.apk
 sha256sum NimRecord.apk > NimRecord.apk.sha256
 git commit -am "apk: nueva build" && git push
 ```
-
-NimRecord es una versión modificada de [CallVault](https://github.com/madkongo/CallVault) y
-[ShizuCallRecorder](https://github.com/kitsumed/ShizuCallRecorder), bajo licencia GPL-3.0.
