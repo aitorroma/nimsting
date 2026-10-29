@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1100" height="900" viewBox="0 0 1100 900" role="img" aria-labelledby="title desc">
+<title id="title">NimRecord</title><desc id="desc">Abeja Nimsting con auriculares y micrófono, ondas de voz y punto rojo de grabación</desc>
+<defs>
+ <linearGradient id="honey" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFDB57"/><stop offset="1" stop-color="#FFB819"/></linearGradient>
+ <linearGradient id="wing" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9AC7FF" stop-opacity=".78"/><stop offset="1" stop-color="#D1F4FF" stop-opacity=".55"/></linearGradient>
+ <clipPath id="beeBody"><path d="M104 121 C93 150 75 176 90 194 C106 211 150 199 179 186 C210 172 230 149 220 122 C210 96 175 86 146 96 C125 101 112 109 104 121Z"/></clipPath>
+</defs>
+<g transform="translate(215 25) scale(2.25)">
+ <g fill="none" stroke="#F9B719" stroke-width="10" stroke-linecap="round"><path d="M39 183l-2 11M48 216l9 9M79 233l11 3M116 229l10-4"/></g>
+ <path d="M133 113 C93 63 83 36 109 27 C141 17 163 68 160 112Z" fill="url(#wing)"/>
+ <path d="M156 104 C149 57 161 22 187 25 C211 29 205 70 181 116Z" fill="url(#wing)"/>
+ <path d="M104 121 C93 150 75 176 90 194 C106 211 150 199 179 186 C210 172 230 149 220 122 C210 96 175 86 146 96 C125 101 112 109 104 121Z" fill="url(#honey)"/>
+ <g clip-path="url(#beeBody)" fill="#202731"><path d="M91 113 L111 105 C115 142 137 169 156 198 L133 212 C110 188 91 145 91 113Z"/><path d="M137 86 L156 84 C160 124 181 145 202 168 L182 188 C158 162 140 131 137 86Z"/></g>
+ <path d="M179 97 C213 98 231 116 226 145 C222 167 207 177 187 184 C177 157 163 129 153 107Z" fill="url(#honey)"/>
+ <rect x="187" y="129" width="10" height="21" rx="5" fill="#202731"/><rect x="210" y="129" width="10" height="21" rx="5" fill="#202731"/>
+ <g fill="none" stroke="#202731" stroke-width="6" stroke-linecap="round"><path d="M181 101 Q177 77 190 63"/><path d="M203 105 Q209 82 222 78"/></g>
+ <g fill="#202731"><circle cx="191" cy="62" r="10"/><circle cx="223" cy="78" r="10"/></g>
+ <!-- Auricular y micrófono -->
+ <path d="M145 129 Q149 82 194 87 Q230 91 235 128" fill="none" stroke="#202731" stroke-width="10" stroke-linecap="round"/>
+ <rect x="137" y="126" width="22" height="40" rx="11" fill="#9DAEC1" stroke="#202731" stroke-width="5"/>
+ <path d="M148 163 Q161 189 202 179" fill="none" stroke="#202731" stroke-width="6" stroke-linecap="round"/>
+ <rect x="195" y="173" width="17" height="10" rx="5" fill="#202731"/>
+ <!-- Ondas de la conversación -->
+ <g stroke="#318FFF" stroke-width="7" stroke-linecap="round" fill="none"><path d="M253 133 Q269 149 253 165"/><path d="M267 120 Q295 149 267 179"/><path d="M281 108 Q322 149 281 191"/></g>
+ <circle cx="324" cy="203" r="17" fill="#FF334B" opacity=".12"/><circle cx="324" cy="203" r="10" fill="#F52237"/>
+</g>
+<text x="550" y="745" text-anchor="middle" font-family="Inter, Nunito, Arial, sans-serif" font-weight="800" font-size="125" letter-spacing="-5"><tspan fill="#202731">Nim</tspan><tspan fill="#147BFF">Record</tspan></text>
+</svg>
